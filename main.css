@@ -8,6 +8,7 @@
 body {
   background-color: #262626;
 }
+/* CSS for Table*/
 .container {
   padding: 50px 600px;
   border-radius: 15px;
@@ -37,4 +38,41 @@ td {
   font-size: 2em;
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+/* CSS for list*/
+
+.main {
+  color: #fff;
+  background-color: #ff4a4a;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.first-list,
+.second-list,
+.third-list {
+  padding: 0 550px;
+  padding-top: 50px;
+}
+
+.first-list h2,
+.second-list h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 25px;
+}
+
+h2 {
+  text-align: center;
+  justify-content: center;
+}
+.third-list dl dd {
+  text-align: center;
+}
+.third-list dl dt {
+  font-size: 1.2em;
+  font-size: 400;
+  padding: 10px 0;
+  color: #262626;
 }
