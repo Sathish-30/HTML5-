@@ -7,6 +7,7 @@
 
 body {
   background-color: #262626;
+  box-sizing: border-box;
 }
 /* CSS for Table*/
 .container {
@@ -75,4 +76,70 @@ h2 {
   font-size: 400;
   padding: 10px 0;
   color: #262626;
+}
+
+/*CSS for Form*/
+.body-form {
+  background-color: #fdeedc;
+  position: relative;
+  font-family: "poppins", sans-serif;
+}
+.container-form {
+  position: absolute;
+  background: linear-gradient(#f1efdc, #ffc090);
+  margin-top: 110px;
+  border-radius: 15px;
+  margin-left: 518px;
+  height: 500px;
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.back-img {
+  position: absolute;
+  background-size: cover;
+  height: 100vh;
+}
+.header {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+.login input {
+  margin-top: 15%;
+  margin-left: 19%;
+  width: 260px;
+  height: 45px;
+  border: 0.1px solid #94b49f;
+  padding-left: 15px;
+  border-radius: 15px;
+  z-index: 20;
+}
+
+.login input:last-child {
+  margin-top: 15px;
+}
+
+.btn {
+  border-radius: 7px;
+  border: 0.3px solid #000;
+  margin-left: 43%;
+  margin-top: 30px;
+  height: 30px;
+  width: 70px;
+  background-color: #fff;
+  font-size: 400;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+.display {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #ee6983;
 }

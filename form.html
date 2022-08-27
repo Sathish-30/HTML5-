@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Form</title>
+  </head>
+  <body class="body-form">
+    <img src="images/form_img.svg" alt="" class="back-img" />
+    <form class="container-form" id="form">
+      <div class="section">
+        <h3 class="header">Login</h3>
+        <div class="login">
+          <input
+            type="E-mail"
+            name="email"
+            placeholder="Enter Email / Phone no"
+            required
+            id="mail"
+          />
+          <input
+            class="section-pass"
+            type="Password"
+            name="email"
+            placeholder="Password"
+            required
+            id="password"
+          />
+        </div>
+        <button class="btn" id="Login">Login</button>
+      </div>
+      <div class="display">
+        <p id="errorElement"></p>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
